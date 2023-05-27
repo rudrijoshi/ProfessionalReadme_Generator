@@ -71,7 +71,7 @@ function writeToFile(fileName, data) {
     );
 }
 
-// TODO: Create a function to initialize app
+// TODO: Create a function for initializing app
 function init() {
     inquirer.prompt(questions).then((answer) => {
         const readMePage = generateMarkdown(answer);
